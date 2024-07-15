@@ -75,3 +75,4 @@ def on_button_click(self, text):
         current_text = self.result_var.get()
         new_text = current_text + text
         self.result_var.set(new_text)
+if name == "main": app = Calculator() app.mainloop()
